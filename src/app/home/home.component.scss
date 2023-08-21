@@ -1,0 +1,90 @@
+
+.background-img{
+    height: 95vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("https://websitedemos.net/cosmetics-store-02/wp-content/uploads/sites/543/2020/02/bg-01-free-img.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+// head_content
+.inner-content_section1 {
+    align-content: flex-start;
+    width: 100%;
+    position: relative;
+    top: 8rem;
+    font-family: Montserrat;
+    color: #ffffff;
+    h1 {
+      font-size: 4.8rem;
+    }
+    .sub_text {
+      font-family: Cormorant;
+      line-height: 1.8;
+      font-size: 1.1rem;
+    }
+    button {
+      border: 1px solid #ffffff;
+      border-radius: 0;
+      font-size: 0.7rem;
+      padding-top: 15px;
+      padding-right: 35px;
+      padding-bottom: 15px;
+      padding-left: 35px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+    }
+  }
+  // global css
+  .sub-heading {
+    font-family: "allura";
+    font-size: 1.5789473684211rem;
+    font-weight: 500;
+    color: #000;
+  }
+  // headings
+  h1,
+  h2,
+  h3 {
+    font-family: "Montserrat", sans-serif;
+  }
+  h2 {
+    font-size: 2.3rem;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  
+  .content {
+    font-family: "Cormorant", serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #7e7e7e;
+  }
+  button {
+    font-size: 0.6rem;
+    border-radius: 0;
+    padding-top: 15px;
+    padding-right: 35px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    a{
+        color: #ffffff;
+    }
+    a:hover{
+color: unset;
+    }
+    
+  }
+  button:hover{ 
+    a{
+    color: #000 !important;
+  }
+}

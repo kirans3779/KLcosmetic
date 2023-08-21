@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12" *ngFor="let item of searchResult">
+            <div class="card-product d-flex justify-content-start p-3 ">
+                <div class="card-left">
+                   <img src="{{item.img}}" alt="">
+                </div>
+                <div class="card-right mx-2">
+                    
+                    <div class="product_name">{{item.name}}</div>
+                    <div class="product_type"><strong>Category:</strong> {{item.category}}</div>
+                  
+                    <div class="product-discription"><strong>Discription:</strong> {{item.discription}}</div>
+                    <div class="product-price">₹{{item.price}}</div>  
+                    <div class="btn btn-outline-primary my-3 addcart "> Add To Cart</div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

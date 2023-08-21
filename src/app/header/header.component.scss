@@ -1,0 +1,21 @@
+.search-result{
+    position: absolute;
+    top: 4rem;
+    
+    background: #fff;
+    width: 21%;
+    z-index: 999;
+    ul{
+        padding: 0;
+    }
+    ul li{
+        text-decoration: none;
+        list-style-type: none;
+        padding: 5px 10px;
+        border-bottom: 1px solid #ddd;
+      
+    }
+    li a{
+        color: #000;
+    }
+}

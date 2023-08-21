@@ -1,0 +1,61 @@
+{
+ 
+  "product": [
+    {
+      "id": 1,
+      "name": "Skin Cream",
+      "price": "50",
+      "category":"skin",
+      "img":"https://kirans3779.github.io/Cosmeticproduct/image/beauty-cream-600x600.jpg",
+      "discription":"Walnut and turmeric come together in the Mamaearth Ubtan Face Scrub to remove sun tan while restoring the skin's natural glow."
+    },
+    {
+      "id": 2,
+      "name": "Shampoo",
+      "price": "200",
+      "category":"hair",
+      "img":"https://images-static.nykaa.com/uploads/3d67d373-d8ea-447a-8495-7ecf0ce12882.jpeg?tr=w-240,cm-pad_resize",
+      "discription":"Walnut and turmeric come together in the Mamaearth Ubtan Face Scrub to remove sun tan while restoring the skin's natural glow."
+    },
+    {
+      "id": 3,
+      "name": "Lipstick",
+      "price": "50",
+      "category":"makeup",
+      "img":"https://img.freepik.com/free-psd/cosmetic-lipstick_73621-1061.jpg?size=626&ext=jpg&ga=GA1.2.348522005.1692451755&semt=sph",
+      "discription":"Walnut and turmeric come together in the Mamaearth Ubtan Face Scrub to remove sun tan while restoring the skin's natural glow."
+    },
+    {
+      "id": 4,
+      "name": "Fash Wash",
+      "price": "50",
+      "category":"skin",
+      "img":"https://images-static.nykaa.com/uploads/e6f8bb0a-20b9-4779-a2b3-959f2c3f6bf5.jpeg?tr=w-240,cm-pad_resize",
+      "discription":"Walnut and turmeric come together in the Mamaearth Ubtan Face Scrub to remove sun tan while restoring the skin's natural glow."
+    },
+    {
+    "id": 1,
+    "name": "Skin Cream",
+    "price": "50",
+    "category":"skin",
+    "img":"https://img.freepik.com/free-photo/beach-skincare-product-still-life_23-2150167955.jpg?size=626&ext=jpg&ga=GA1.2.348522005.1692451755&semt=ais",
+    "discription":"Walnut and turmeric come together in the Mamaearth Ubtan Face Scrub to remove sun tan while restoring the skin's natural glow."
+  },
+  {
+    "id": 2,
+    "name": "Shampoo",
+    "price": "200",
+    "category":"hair",
+    "img":"https://img.freepik.com/premium-psd/cosmetic-spray-bottle-mockup_604638-58.jpg?size=626&ext=jpg&ga=GA1.2.348522005.1692451755&semt=ais",
+    "discription":"Walnut and turmeric come together in the Mamaearth Ubtan Face Scrub to remove sun tan while restoring the skin's natural glow."
+  },
+  {
+    "id": 3,
+    "name": "Lipstick",
+    "price": "50",
+    "category":"makeup",
+    "img":"https://img.freepik.com/premium-vector/isolated-red-lipstick_157999-53.jpg?size=626&ext=jpg&ga=GA1.2.348522005.1692451755&semt=sph",
+    "discription":"Walnut and turmeric come together in the Mamaearth Ubtan Face Scrub to remove sun tan while restoring the skin's natural glow."
+  }
+]
+}

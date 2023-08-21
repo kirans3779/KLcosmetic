@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/Montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: allura;
+    // src: url('../../assets/Allura/Allura-Regular.ttf');
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat !important;
+}
+a{
+    text-decoration: none;
+    font-family: Montserrat !important;
+}
+
+.cart {
+    height: 100%;
+    width: 30px;
+    margin: 0px 20px;
+}

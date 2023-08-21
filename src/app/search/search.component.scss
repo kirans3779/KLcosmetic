@@ -34,4 +34,9 @@
     background-color: #0D4E52 !important;
     color: #fff;
   }
-
+  @media only screen and (max-width: 767px){
+    .card-product{
+      height: 240px;
+    }
+  }
+  

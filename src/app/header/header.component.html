@@ -1,10 +1,10 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand" href="#"> <img src="../../assets/image/logo.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" (click)="btnactive()"  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="navbar-collapse" id="navbarSupportedContent" [class.collapse]="isElementVisible">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" routerLink="home">Home</a>
@@ -16,7 +16,7 @@
          
         </ul>
         <form class="d-flex">
-            <input class="form-control me-2" #searchInput type="search" placeholder="Find Product"  (keyup)="searchproduct($event)" (blur)="hideResult()" >
+            <input class="form-control me-2 searchbox" #searchInput type="search" placeholder="Find Product"  (keyup)="searchproduct($event)" (blur)="hideResult()" >
               
           
             <button class="btn btn-outline-success mx-2" (click)="submitSearch(searchInput.value)">Search</button>

@@ -88,3 +88,13 @@ color: unset;
     color: #000 !important;
   }
 }
+@media only screen and (max-width: 767px) {
+  .background-img{height: 50vh;} 
+  .inner-content_section1 {
+    top:3rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  
+}

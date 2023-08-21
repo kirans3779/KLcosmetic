@@ -1,7 +1,6 @@
 .search-result{
     position: absolute;
     top: 4rem;
-    
     background: #fff;
     width: 21%;
     z-index: 999;
@@ -18,4 +17,20 @@
     li a{
         color: #000;
     }
+    
 }
+@media only screen and (max-width: 767px) {
+    .navbar-brand{
+        max-width: 170px !important;
+        img{
+            width: 100%;
+        }
+    }
+    .cart{
+        margin: 10px 0px;
+    }
+    .search-result{
+      width: 80%;
+      top:80%;
+    }
+  }

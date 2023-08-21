@@ -31,4 +31,8 @@ export class HeaderComponent {
 console.log("searchval"+val);
 this.route.navigate([`search/${val}`]);
   }
+  isElementVisible = false;
+  btnactive(){
+    this.isElementVisible = !this.isElementVisible;
+  }
 }

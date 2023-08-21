@@ -62,3 +62,15 @@
   .nav-item{
     cursor: pointer;
   }
+  @media only screen and (max-width: 767px){
+    .add-cart-btn{
+      width: 100%;
+      white-space: nowrap;
+    }
+    .card{
+      margin: 10px 6px;
+    }
+    .card-top{
+      width: 170px;
+    }
+  }
